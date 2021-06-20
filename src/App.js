@@ -63,7 +63,7 @@ function App() {
               }
               {!login &&
                 <FacebookLogin
-                  appId="299743908454060"
+                  appId="yourApi"
                   autoLoad={false}
                   fields="name,email,picture"
                   scope="public_profile,user_friends"
@@ -74,7 +74,7 @@ function App() {
 
               {!login &&
                 <GoogleLogin
-                  clientId="1094161518828-6631fsvbuhe09cij4ije6k6fdnu9qkkp.apps.googleusercontent.com"
+                  clientId="yourClientID"
                   buttonText="Login"
                   onSuccess={responseGoogle}
                   autoLoad={false}
