@@ -1,0 +1,29 @@
+.navBar{
+    display: flex;
+    color: white;
+    background-color: #4c69ba;
+    width: 100%;
+    height: 65px;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dashboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 13px;
+}
+
+
+.header__title{
+    font-size: 25px;
+    margin: 0;
+}
+
+.tsfLogo{
+    height: 45px;
+    width: 33px;
+}

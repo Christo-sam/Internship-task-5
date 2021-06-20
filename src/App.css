@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.card{
+  position: absolute;
+  min-width: 240px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 5px 18px rgb(0 0 0 / 40%);
+}
+
+.signUpText{
+  text-align: center;
+}
+
+
+.header{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.welcomeScreen{
+  margin: 28px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.card__title{
+  color: #4c4c4c;
+  font-size:25px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.card__email{
+  font-size: 16px;
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.signOutButton{
+  color: white;
+  background: #15158e;
+  outline: none;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media only screen and (max-width: 330px) {
+  .userImg {
+    height:100px;
+    width: 100px;
+  }
+
+  .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+@media only screen and (max-width: 290px){
+  .card{
+    width: 100px;
+  }
+
+  .card__title{
+    font-size: 18px;
+  }
+
+  .card__email {
+    font-size: 12px;
+    color: #4c4c4c;
+    font-style: italic;
+  }
+
+  .signOutButton{
+    padding: 6px 14px;
+  }
+}
